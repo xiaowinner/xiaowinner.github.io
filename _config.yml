@@ -1,6 +1,6 @@
 # Site settings 配置站点
 title: 'Redlotus's blog
-description: '灵感之源。'
+description: '灵感之源'
 keyword: '设计，灵感，前段'
 url: 'https://xiaowinner.github.io' # your host
 baseurl: '/'
