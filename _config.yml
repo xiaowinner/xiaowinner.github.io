@@ -1,9 +1,9 @@
 # Site settings 配置站点
-title: 'Redlotus's blog'
+title: 'Redlotus blog'
 description: '灵感之源'
 keyword: '设计，灵感，iOS'
 url: 'https://xiaowinner.github.io' # your host
-baseurl: 'https://xiaowinner.github.io'
+baseurl: '/'
 # Navigation links
 nav:
   home: '/'
