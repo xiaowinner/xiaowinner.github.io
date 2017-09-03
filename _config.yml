@@ -1,11 +1,11 @@
 # Site settings 配置站点
-title: 'RedLotus blog'
+title: 'You can be serious without a suit.'
 description: ''
 keyword: '设计，灵感，iOS'
 url: 'https://xiaowinner.github.io' # your host
 baseurl: '/'
 # Navigation links
-  nav:
+nav:
   home: '/'
   tags: '/tags.html'
 
