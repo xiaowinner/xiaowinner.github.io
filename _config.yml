@@ -1,18 +1,18 @@
 # Site settings 配置站点
 title: 'Redlotus blog'
-description: '灵感之源'
+description: ''
 keyword: '设计，灵感，iOS'
 url: 'https://xiaowinner.github.io' # your host
 baseurl: '/'
 # Navigation links
-nav:
+    nav:
   home: '/'
   tags: '/tags.html'
 
 # Author 配置博主信息
 author: '原晓文'
 nickname: 'Redlotus'
-bio: 'iOS开发者，热爱技术&设计，简单乐观爱创造'
+bio: 'iOS开发者'
 avatar: 'assets/img/profile.jpeg'
 
 # Search
