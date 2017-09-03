@@ -1,10 +1,11 @@
 ## H2O
 
-[在线预览 View →](http://liaokeyu.com/)
+[在线预览 View →][1]
 
-![](assets/img/jekyll-theme-h2o-realhome.jpg)
+![][image-1]
 
-![](assets/img/jekyll-theme-h2o-realm.png)
+![][image-2]
+
 
 If you like this theme or using it, please give a ⭐️ for motivation ;)
 
@@ -16,7 +17,7 @@ Using your smartphone to scan QR Code
 
 如果想体验手机浏览效果，可以扫一下二维码：
 
-![](assets/img/1494404591.png)
+![][image-3]
 
 ### Features 特性
 
@@ -50,11 +51,11 @@ Using your smartphone to scan QR Code
 
 ### Usage 快速开始
 
-首先你需要安装Jekyll，请查看文档: [快速指南](http://jekyll.com.cn/docs/quickstart/)
+首先你需要安装Jekyll，请查看文档: [快速指南][2]
 
-如果你已经安装了Jekyll，请检查版本是否为3.0.x，你可以使用 ```gem update jekyll``` 命令进行升级。
+如果你已经安装了Jekyll，请检查版本是否为3.0.x，你可以使用 `gem update jekyll` 命令进行升级。
 
-点击右上角Fork按钮在你的Github上创建分支，或者```clone```到本地。
+点击右上角Fork按钮在你的Github上创建分支，或者`clone`到本地。
 
 ``` git clone https://github.com/kaeyleo/jekyll-theme-H2O.git ```
 
@@ -65,25 +66,25 @@ Using your smartphone to scan QR Code
 ### Document 配置文档
 
 - Get Started 开始
-	- [站点信息](#站点信息)
-	- [写一篇文章](#写一篇文章)
+    - [站点信息](#站点信息)
+    - [写一篇文章](#写一篇文章)
 - Components 组件
-	- [导航](#导航)
-	- [侧边栏](#侧边栏)
-	- [社交图标](#社交图标)
-	- [个人简介](#个人简介)
-	- [标签](#标签)
-	- [代码高亮](#代码高亮)
-	- [文章搜索](#文章搜索)
-	- [夜间模式](#夜间模式)
+    - [导航](#导航)
+    - [侧边栏](#侧边栏)
+    - [社交图标](#社交图标)
+    - [个人简介](#个人简介)
+    - [标签](#标签)
+    - [代码高亮](#代码高亮)
+    - [文章搜索](#文章搜索)
+    - [夜间模式](#夜间模式)
 - Style 个性化
-	- [主题皮肤](#主题皮肤)
-	- [头图底纹](#头图底纹)
+    - [主题皮肤](#主题皮肤)
+    - [头图底纹](#头图底纹)
 - 高级部分
-	- [自定义](#自定义)
+    - [自定义](#自定义)
 - 集成服务 
-	- [Disqus](#Disqus)
-	- [Share.js](#Share.js)
+    - [Disqus](#Disqus)
+    - [Share.js](#Share.js)
 
 You can easily get started by modifying _config.yml
 
@@ -99,9 +100,9 @@ keyword: '廖柯宇, 廖柯宇的独立博客, 前端, 设计' # 网站关键词
 url: 'http://liaokeyu.com' # 站点url 
 baseurl: '/'
  
-# Build settings 
+# Build settings
 paginate: 6 # 一页放几篇文章
-paginate_path: 'page:num'
+paginate\_path: 'page:num'
 ```
 
 其实大部分参数已经默认配置好了，你只需要通过文档了解它们，然后根据自己的需求去`_config.yml`文件里修改即可。
@@ -137,7 +138,7 @@ nav:
 
 ```
 # Build settings
-exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
+exclude: ['node\_modules', 'dev', 'package.json', '自定义的文件夹名字']
 ```
 
 这样做是为了在Jekyll运行时排除某些文件被复制到运行文件`_site`里去。
@@ -228,9 +229,9 @@ Tags配置说明：
 在Markdown中你可以这样写：
 
 
-	 ```css
-		p { color: red }
-	 ```
+     ```css
+        p { color: red }
+     ```
 
 支持语言：
 
@@ -335,7 +336,7 @@ postPatterns: 'circuitBoard'
 
 在了解H2O主题的目录结构之前，确保你对[Jekyll目录结构](http://jekyll.com.cn/docs/structure/)有所了解。
 
-```		
+```     
 	.
 	├── _config.yml # 配置文件
 	├── _includes # 页面组件方便重用
@@ -384,7 +385,7 @@ postPatterns: 'circuitBoard'
 ```
 # Comments
 disqus: true
-disqus_url: 'https://你的disqus账户名.disqus.com/embed.js'
+disqus\_url: 'https://你的disqus账户名.disqus.com/embed.js'
 ```
 
 注：`disqus` 默认值为 `false`
@@ -397,14 +398,22 @@ disqus_url: 'https://你的disqus账户名.disqus.com/embed.js'
 # Share
 social-share: true # 开启或者关闭分享功能
 social-share-items: ['wechat', 'weibo', 'douban','twitter']
-```
+\`\`\`
 
 ### Contribution 贡献
 
 Any types of contribution are welcome. Thanks.
 
-接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的 ```Pull Request```
+接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的 `Pull Request`
 
 ### License 许可证
 
-Jekyll-Theme-H2O is licensed under [MIT](https://github.com/kaeyleo/jekyll-theme-H2O/blob/master/LICENSE).
+Jekyll-Theme-H2O is licensed under [MIT][3].
+
+[1]:	http://liaokeyu.com/
+[2]:	http://jekyll.com.cn/docs/quickstart/
+[3]:	https://github.com/kaeyleo/jekyll-theme-H2O/blob/master/LICENSE
+
+[image-1]:	assets/img/jekyll-theme-h2o-realhome.jpg
+[image-2]:	assets/img/jekyll-theme-h2o-realm.png
+[image-3]:	assets/img/1494404591.png
